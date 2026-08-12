@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'mvn clean package'
+                bat 'C:\\Users\DELL\Downloads\apache-maven-3.9.16-bin.zip\apache-maven-3.9.16\bin'
             }
         }
         stage('Test') {
             steps {
-                bat 'mvn test'
+                bat 'C:\\Users\DELL\Downloads\apache-maven-3.9.16-bin.zip\apache-maven-3.9.16\bin'
             }
         }
         stage('Deploy') {
