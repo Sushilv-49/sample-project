@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Sushilv-49/sample-project.git'
+                git branch: 'main', url: 'https://github.com/Sushilv-49/sample-project.git'
             }
         }
         stage('Build') {
